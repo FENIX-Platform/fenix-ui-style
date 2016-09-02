@@ -1,0 +1,30 @@
+{
+  "name": "fenix-ui-style",
+  "version": "1.0.0-beta.0",
+  "description": "FENIX style",
+  "main": "dist/fenix-style.css",
+  "scripts": {
+    "dev": "NODE_ENV=develop webpack-dev-server --display-error-details"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FENIX-Platfom/fenix-ui-style.git"
+  },
+  "keywords": [
+    "FENIX",
+    "style"
+  ],
+  "author": "Daniele Salvatore <daniele.salvatore@fao.org> (http://fenix.fao.org/)",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FENIX-Platform/fenix-ui-style/issues"
+  },
+  "homepage": "https://github.com/FENIX-Platform/fenix-ui-style#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1"
+  }
+}
